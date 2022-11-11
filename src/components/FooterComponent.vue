@@ -243,6 +243,7 @@ footer{
 
         ul{
             list-style: none;
+            padding: unset;
 
             li a{
                 display: inline-block;

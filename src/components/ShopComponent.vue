@@ -77,6 +77,7 @@ section{
         ul{
         list-style: none;
         padding: 2.5rem;
+        margin-bottom: unset;
         @include dflex;
 
         li a{
