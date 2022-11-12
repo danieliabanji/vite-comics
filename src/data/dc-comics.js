@@ -71,5 +71,130 @@ const comics = [
     series: "Catwoman",
     type: "graphic novel"
   }
-]
-export { comics };
+];
+
+
+const socials=[
+  {
+      imageName: "footer-facebook.png",
+      text:"facebook",
+      url: "#",
+      current: false,
+  },
+  {
+      imageName: "footer-twitter.png",
+      text:"twitter",
+      url: "#",
+      current: false,
+  },
+  {
+      imageName: "footer-youtube.png",
+      text:"youtube",
+      url: "#",
+      current: false,
+  },
+  {
+      imageName: "footer-pinterest.png",
+      text:"pinterest",
+      url: "#",
+      current: false,
+  },
+  {
+      imageName: "footer-periscope.png",
+      text:"periscope",
+      url: "#",
+      current: false,
+  },
+  
+];
+
+const shop=[
+  {
+      imageName: "buy-comics-digital-comics.png",
+      text:"Digital Comics",
+      url: "#",
+      current: false,
+  },
+  {
+      imageName: "buy-comics-merchandise.png",
+      text:"DC Merchandise",
+      url: "#",
+      current: false,
+  },
+  {
+      imageName: "buy-comics-subscriptions.png",
+      text:"Subscrition",
+      url: "#",
+      current: false,
+  },
+  {
+      imageName: "buy-comics-shop-locator.png",
+      text:"Comic Shop Locator",
+      url: "#",
+      current: false,
+  },
+  {
+      imageName: "buy-dc-power-visa.svg",
+      text:"DC Power Visa",
+      url: "#",
+      current: false,
+  },
+  
+];
+
+const links=[
+  {
+      text:"Characters",
+      url: "#",
+      current: false,
+  },
+  {
+      text:"Comics",
+      url: "#",
+      current: true,
+  },
+  {
+      text:"Movies",
+      url: "#",
+      current: false,
+  },
+  {
+      text:"Tv",
+      url: "#",
+      current: false,
+  },
+  {
+      text:"Games",
+      url: "#",
+      current: false,
+  },
+  {
+      text:"Collectibles",
+      url: "#",
+      current: false,
+  },
+  {
+      text:"Videos",
+      url: "#",
+      current: false,
+  },
+  {
+      text:"Fans",
+      url: "#",
+      current: false,
+  },
+  {
+      text:"News",
+      url: "#",
+      current: false,
+  },
+  {
+      text:"Shop",
+      url: "#",
+      current: false,
+  },
+];
+
+
+
+export { comics, socials, shop, links};

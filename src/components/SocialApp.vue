@@ -5,9 +5,9 @@
             <div>
                 <ul>
                     <a href="">Follow us</a>
-                    <li v-for="(social, index) in socials" :key="index">
-                        <a :href="social.url" :class="{ 'active': social.current }">
-                        <img :src="getImagePath(`../assets/img/${social.imageName}`)" :alt="social.text">
+                    <li v-for="(item, index) in social" :key="index">
+                        <a :href="item.url" :class="{ 'active': item.current }">
+                        <img :src="getImagePath(`../assets/img/${item.imageName}`)" :alt="item.text">
                         </a>
                     </li>
                 </ul>
@@ -18,43 +18,14 @@
 </template>
 
 <script>
+import { socials } from '../data/dc-comics';
+
     export default {
         name: 'SocialApp',
         data(){
             return{
-                socials:[
-                    {
-                        imageName: "footer-facebook.png",
-                        text:"facebook",
-                        url: "#",
-                        current: false,
-                    },
-                    {
-                        imageName: "footer-twitter.png",
-                        text:"twitter",
-                        url: "#",
-                        current: false,
-                    },
-                    {
-                        imageName: "footer-youtube.png",
-                        text:"youtube",
-                        url: "#",
-                        current: false,
-                    },
-                    {
-                        imageName: "footer-pinterest.png",
-                        text:"pinterest",
-                        url: "#",
-                        current: false,
-                    },
-                    {
-                        imageName: "footer-periscope.png",
-                        text:"periscope",
-                        url: "#",
-                        current: false,
-                    },
-                    
-                ]
+                social: socials,
+            
             }
 
         },

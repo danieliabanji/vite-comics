@@ -17,43 +17,14 @@
 </template>
 
 <script>
+import { shop } from '../data/dc-comics';
+
     export default {
         name: 'ShopComponent',
         data(){
             return{
-                links:[
-                    {
-                        imageName: "buy-comics-digital-comics.png",
-                        text:"Digital Comics",
-                        url: "#",
-                        current: false,
-                    },
-                    {
-                        imageName: "buy-comics-merchandise.png",
-                        text:"DC Merchandise",
-                        url: "#",
-                        current: false,
-                    },
-                    {
-                        imageName: "buy-comics-subscriptions.png",
-                        text:"Subscrition",
-                        url: "#",
-                        current: false,
-                    },
-                    {
-                        imageName: "buy-comics-shop-locator.png",
-                        text:"Comic Shop Locator",
-                        url: "#",
-                        current: false,
-                    },
-                    {
-                        imageName: "buy-dc-power-visa.svg",
-                        text:"DC Power Visa",
-                        url: "#",
-                        current: false,
-                    },
-                    
-                ]
+                links : shop
+               
             }
 
         },
