@@ -74,127 +74,286 @@ const comics = [
 ];
 
 
-const socials=[
+const socials = [
   {
-      imageName: "footer-facebook.png",
-      text:"facebook",
-      url: "#",
-      current: false,
+    imageName: "footer-facebook.png",
+    text: "facebook",
+    url: "#",
+    current: false,
   },
   {
-      imageName: "footer-twitter.png",
-      text:"twitter",
-      url: "#",
-      current: false,
+    imageName: "footer-twitter.png",
+    text: "twitter",
+    url: "#",
+    current: false,
   },
   {
-      imageName: "footer-youtube.png",
-      text:"youtube",
-      url: "#",
-      current: false,
+    imageName: "footer-youtube.png",
+    text: "youtube",
+    url: "#",
+    current: false,
   },
   {
-      imageName: "footer-pinterest.png",
-      text:"pinterest",
-      url: "#",
-      current: false,
+    imageName: "footer-pinterest.png",
+    text: "pinterest",
+    url: "#",
+    current: false,
   },
   {
-      imageName: "footer-periscope.png",
-      text:"periscope",
-      url: "#",
-      current: false,
+    imageName: "footer-periscope.png",
+    text: "periscope",
+    url: "#",
+    current: false,
   },
-  
+
 ];
 
-const shop=[
+const shop = [
   {
-      imageName: "buy-comics-digital-comics.png",
-      text:"Digital Comics",
-      url: "#",
-      current: false,
+    imageName: "buy-comics-digital-comics.png",
+    text: "Digital Comics",
+    url: "#",
+    current: false,
   },
   {
-      imageName: "buy-comics-merchandise.png",
-      text:"DC Merchandise",
-      url: "#",
-      current: false,
+    imageName: "buy-comics-merchandise.png",
+    text: "DC Merchandise",
+    url: "#",
+    current: false,
   },
   {
-      imageName: "buy-comics-subscriptions.png",
-      text:"Subscrition",
-      url: "#",
-      current: false,
+    imageName: "buy-comics-subscriptions.png",
+    text: "Subscrition",
+    url: "#",
+    current: false,
   },
   {
-      imageName: "buy-comics-shop-locator.png",
-      text:"Comic Shop Locator",
-      url: "#",
-      current: false,
+    imageName: "buy-comics-shop-locator.png",
+    text: "Comic Shop Locator",
+    url: "#",
+    current: false,
   },
   {
-      imageName: "buy-dc-power-visa.svg",
-      text:"DC Power Visa",
-      url: "#",
-      current: false,
+    imageName: "buy-dc-power-visa.svg",
+    text: "DC Power Visa",
+    url: "#",
+    current: false,
   },
-  
+
 ];
 
-const links=[
+const links = [
   {
-      text:"Characters",
-      url: "#",
-      current: false,
+    text: "Characters",
+    url: "#",
+    current: false,
   },
   {
-      text:"Comics",
-      url: "#",
-      current: true,
+    text: "Comics",
+    url: "#",
+    current: true,
   },
   {
-      text:"Movies",
-      url: "#",
-      current: false,
+    text: "Movies",
+    url: "#",
+    current: false,
   },
   {
-      text:"Tv",
-      url: "#",
-      current: false,
+    text: "Tv",
+    url: "#",
+    current: false,
   },
   {
-      text:"Games",
-      url: "#",
-      current: false,
+    text: "Games",
+    url: "#",
+    current: false,
   },
   {
-      text:"Collectibles",
-      url: "#",
-      current: false,
+    text: "Collectibles",
+    url: "#",
+    current: false,
   },
   {
-      text:"Videos",
-      url: "#",
-      current: false,
+    text: "Videos",
+    url: "#",
+    current: false,
   },
   {
-      text:"Fans",
-      url: "#",
-      current: false,
+    text: "Fans",
+    url: "#",
+    current: false,
   },
   {
-      text:"News",
-      url: "#",
-      current: false,
+    text: "News",
+    url: "#",
+    current: false,
   },
   {
-      text:"Shop",
-      url: "#",
-      current: false,
+    text: "Shop",
+    url: "#",
+    current: false,
   },
 ];
 
+const menu = [
+  {
+    title: 'DC Comics',
+    links: [
+      {
+        text: "Characters",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Comics",
+        url: "#",
+        current: true,
+      },
+      {
+        text: "Movies",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Tv",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Games",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Collectibles",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Videos",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Fans",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "News",
+        url: "#",
+        current: false,
+      },
+
+    ],
+  },
+  {
+    title: 'Shop',
+    links: [
+      {
+        text: "Shop DC",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Shop DC Collectibles",
+        url: "#",
+        current: false,
+      },
+    ],
+  },
+  {
+    title: 'DC',
+    links: [
+      {
+        text: "Terms Of Use",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Pricacy policy (New)",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Ad Choices",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Advertising",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "jobs",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Subscriptions",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Talent Workshops",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "CPSC Certifivstes",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Rating",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Shop Help",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "Contact Us",
+        url: "#",
+        current: false,
+      },
+    ],
+  },
+  {
+    title: 'Sites',
+    links: [
+      {
+        text: "DC",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "MAD Magazine",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "DC Kids",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "DC Univers",
+        url: "#",
+        current: false,
+      },
+      {
+        text: "DC Power Visa",
+        url: "#",
+        current: false,
+      },
+    ],
+  },
+]
 
 
-export { comics, socials, shop, links};
+
+export { comics, socials, shop, links, menu };
